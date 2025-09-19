@@ -341,7 +341,7 @@ if execute == True:
     # Display 
     
     buffer = io.BytesIO()
-    with pd.ExcelWriter(bytestream, engine="xlsxwriter") as writer:
+    with pd.ExcelWriter(buffer, engine="xlsxwriter") as writer:
         df1.to_excel(writer, sheet_name="schedule")
         df2.to_excel(writer, sheet_name="number of shifts per person") 
         writer.close()
