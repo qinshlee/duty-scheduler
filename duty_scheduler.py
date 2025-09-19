@@ -9,7 +9,6 @@ from ortools.sat.python import cp_model
 from datetime import date, datetime, timedelta
 import pandas as pd
 import streamlit as st
-import numpy as np
 import xlsxwriter
 import io
 
