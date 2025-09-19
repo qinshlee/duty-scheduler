@@ -1,1 +1,5 @@
-streamlit
+ortools==9.11.4210
+pandas==2.0.3
+streamlit==1.29.0
+numpy==1.26.0
+xlsxwriter==3.2.3
