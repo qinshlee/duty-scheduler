@@ -1,5 +1,4 @@
 ortools==9.14.6206
 pandas==2.0.3
 streamlit==1.29.0
-numpy==1.23.2
 xlsxwriter==3.2.3
