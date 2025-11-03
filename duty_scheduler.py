@@ -291,7 +291,7 @@ st.markdown("Select slots that do not need manning (tick to select).")
 edited = st.data_editor(
     slots_df,
     column_config={"No Manning": st.column_config.CheckboxColumn("No Manning")},
-    width=True
+    width=stretch
 )
 
 # Extract the blocked slots back into tuples
